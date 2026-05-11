@@ -33,6 +33,8 @@ sh railway/start-web.sh
 
 Script tersebut menjalankan migration, cache config/route, lalu start server di `$PORT`.
 
+Project ini memakai Vite 8, jadi build membutuhkan Node 22. Versi Node sudah dikunci lewat `package.json`, `.nvmrc`, dan `.node-version`.
+
 ## 3. Variables Railway
 
 Isi variable berikut di Railway:
